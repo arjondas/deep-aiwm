@@ -22,6 +22,8 @@ class AWM(tf.keras.Model):
     return out, enc, marked
 
 
+### Model for encoder & decoder pretraining
+
 class AutoEncoder(tf.keras.Model):
   def __init__(self):
     super(AutoEncoder, self).__init__()
